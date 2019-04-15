@@ -23,5 +23,6 @@ public class ClassJ71 {
 
     public void addSuperFeature() {
         System.out.println("test");
+        System.out.println("50%");
     }
 }
