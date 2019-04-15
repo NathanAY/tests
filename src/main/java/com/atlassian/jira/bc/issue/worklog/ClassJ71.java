@@ -20,4 +20,8 @@ public class ClassJ71 {
     public void test4() {
         System.out.println("1");
     }
+
+    public void addSuperFeature() {
+        System.out.println("test");
+    }
 }
