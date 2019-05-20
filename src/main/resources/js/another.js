@@ -22,7 +22,8 @@ jQuery(function(){
                 this._currentlyLoading = false;
                 // Resolve the main promise
                 options.loadingDeferred.resolve(data, meta, options);
-            } else {
+            } else{
+
 
                 //just redirect for now
                 window.location.href = AJS.params.baseURL + "/secure/ViewCard.jspa?" + data.issue.key;
