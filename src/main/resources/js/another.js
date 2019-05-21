@@ -83,7 +83,7 @@ function RoleBasedSecurity() {
                 Xrm.Page.getControl("new_qaconversionscore").setDisabled(true);
             }
         }
-    }
+    };
 
     if (isRFXCoordinator) {
         if (!JSUtility.Client.Mobile) {
